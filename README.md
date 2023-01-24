@@ -140,10 +140,12 @@ Describe the codes with given inputs
 ```
 ## Output:
 
-![](./output.png)
+
+
+
 
 ## HTML Validator:
-![](./valid.png)
+
 
 ## Result:
 The cover page design of a book is executed successfully.
