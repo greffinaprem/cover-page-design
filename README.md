@@ -14,137 +14,130 @@ Describe the codes with given inputs
 ```
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport"
-        content="width=device-width,initial-scale=1.0">
-        <style>
-        
-        .bookpage{
-          width: 400px;
-          height: 600px;
 
-          color:blueviolet;
-          margin-left: auto;
-          margin-right: auto;
-          padding: 20px;
-          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          background-image:url(/static/images/back.jpeg);
-          background-size: cover;
-
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        .bookpage {
+            width: 400px;
+            height: 600px;
+            color: rgb(231, 225, 225);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-size: cover;
+            background-image: url(/static/images/r.jpg);
         }
 
-        .insight{
-            color:white;
-
-
+        .insight {
+            color: brown;
         }
 
-        .hrstyle{
-            width: 30px;
-
+        .hrstyle {
+            width: 100px;
         }
-        .author{
-            color:yellowgreen;
+
+        .author {
             display: inline;
             position: relative;
             color: red;
             top: 190px;
-
-
             font-family: Georgia;
             font-size: medium;
-
         }
 
-        .booktitle{
+        .booktitle {
             font-family: 'Courier New', Courier, monospace;
-            font-size: large;
-            text-align: inherit;
+            font-size: larger;
+            text-align: center;
             position: relative;
             top: 30px;
 
         }
-        .id{
+
+        .id {
             width: 400px;
             position: relative;
             top: 180px;
 
-
         }
-        .pub{
+
+        .pub {
             font-size: medium;
             position: relative;
             top: 155px;
             left: 330px;
         }
-        .ed{
-            color:pink;
-            font-size: large;
+
+        .ed {
+            color: blue;
+            font-size: medium;
             font-family: Verdana;
             position: relative;
-            top: 65px;
+            top: 85px;
 
         }
-        .subtitle{
+
+        .subtitle {
             font-family: Tahoma;
-            font-size: medium;
+            font-size: large;
             position: relative;
-            top: 10px;
-
+            top: 40px;
         }
-        .mypic{
+
+        .mypic {
             position: relative;
-            top: 220px;
-            left: 320px;
+            top: 135px;
+            left: 260px;
             width: 100px;
             height: 100px;
             background-size: cover;
-
         }
-        </style>
-        <title>Book Cover Page</title>
-    </head>
-    <body>
-        <div class="bookpage">
-            <div class="insight">
-                EXPERT INSIGHT
-            </div>
-            <div class="hrstyle">
-                <hr style="color:white;">
-            </div>
-            <div class="booktitle">
-                <h1> Responsive Web Design with HTML5 and CSS </h1></div>
-            <div class="subtitle">
-                Develop future-proof responsive websites using the latest  HTML5 and CSS techniques
-            </div>
-            <div class="mypic">
-                <img src="/static/images/my.jpeg" width=" 65" height="70"alt="">
-            </div>
-            <div class="id">
-                <hr style="color:blue;">
-            </div>
-            <div class="author">
-                <p><b>Greffina</b></p>
-            </div>
-            <div class="pub">
-                Packt>
-            </div>
-            <div class="ed">
-                <b>Third Edition</b>
-            </div>
+    </style>
+    <title>Book Cover Page</title>
+</head>
 
-
+<body>
+    <div class="bookpage">
+        <div class="insight">
+            SEC INSIGHT
         </div>
-    </body>
+        <div class="hrstyle">
+            <hr style="color:black;">
+        </div>
+        <div class="booktitle">
+            <h1>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</h1>
+        </div>
+        <div class="subtitle">
+            HTML and CSS combined with Django Architecture
+        </div>
+        <div class="mypic">
+            <img src="/static/images/x.jpg" width="130" height="145" alt="">
+        </div>
+        <div class="id">
+            <hr style="color: black;">
+        </div>
+        <div class="author">
+            <p><b>Imposter</b></p>
+        </div>
+        <div class="pub">
+            SEC
+        </div>
+        <div class="ed">
+            <b>Seventh Edition</b>
+        </div>
+    </div>
+</body>
+
 </html>
-```
+
 ## Output:
 
-
-
-
-
+![Screenshot (58)](https://user-images.githubusercontent.com/119475603/215285629-7bbe5760-74fc-4823-8ef8-d864c66f3235.png)
 ## HTML Validator:
+![Screenshot (59)](https://user-images.githubusercontent.com/119475603/215285663-435413eb-3d3c-4954-bf35-1c47afff6683.png)
+
 
 
 ## Result:
